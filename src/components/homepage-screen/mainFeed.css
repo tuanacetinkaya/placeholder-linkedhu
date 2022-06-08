@@ -1,0 +1,42 @@
+.feedContainer {
+  flex: 7;
+  margin: 0 30px;
+  width: 75%;
+  /* background-color: white; */
+  border-radius: 20px;
+  overflow-y: scroll;
+  display: flex-row;
+  padding-inline: 10px;
+}
+
+/* 
+flex: '6',
+        marginLeft: '30px',
+        marginRight: '30px',
+        width: '100%',
+        backgroundColor:'white',
+        borderRadius:'20px',
+        display:'flex',
+        flexDirection : 'column',
+        paddingInline : '10px', */
+
+.feed-option-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 0px 10px;
+}
+
+.feed-option-container-child > h4 {
+  margin: 0px 0px 0px 0px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: rgb(99, 97, 97);
+}
+
+.feed-option-container-child {
+  display: flex;
+  align-items: center;
+}
+
