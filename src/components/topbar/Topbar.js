@@ -7,7 +7,6 @@ import {
   Box,
   Toolbar,
   IconButton,
-  Badge,
   SvgIcon,
   Menu,
   Divider,
@@ -16,7 +15,7 @@ import {
 } from "@mui/material";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 
-import { Settings, PersonOutline, Logout, Group } from "@mui/icons-material";
+import { Settings, Logout, Group } from "@mui/icons-material";
 
 import ConfirmationDialog from "../commons/ConfirmationDialog";
 import SearchBar from "../search-bar/SearchBar";
@@ -26,6 +25,7 @@ import EditProfileModal from "../profilepage-screen/EditProfileModal";
 import { ReactComponent as LinkedHuIcon } from "../../linhu_logo.svg";
 import ConnectionsModal from "../profilepage-screen/ConnectionsModal";
 import { getAllUsers } from "../../services/UserService";
+import {ghPageName} from "../../index"
 
 export default function TopBar({ userObj, setUser }) {
   const history = useNavigate();
@@ -45,13 +45,13 @@ export default function TopBar({ userObj, setUser }) {
   };
 
   const navigateToProfile = () => {
-    history("/in/" + userObj.id);
+    history(`${ghPageName}/in/${userObj.id}`);
   };
 
   const handleLogout = () => {
     localStorage.setItem("user", null);
     setUser(null);
-    history("/");
+    history(`${ghPageName}/`);
   };
 
   const askConfirmation = () => {
@@ -82,33 +82,6 @@ export default function TopBar({ userObj, setUser }) {
             <SearchBar />
             <Box sx={{ flexGrow: 1 }} />
             <Box sx={{ display: { xs: "none", md: "flex" }, gap: 1 }}>
-              {/* <Tooltip title="Connection Requests">
-                <IconButton
-                  aria-label="connections req"
-                  sx={{ backgroundColor: "#F5F5F5" }}
-                >
-                  <Badge
-                    badgeContent={1}
-                    color="error"
-                    sx={{ fontFamily: "Poppins", fontWeight: 700 }}
-                  >
-                    <PersonOutline />
-                  </Badge>
-                </IconButton>
-              </Tooltip> */}
-
-              {/* <IconButton
-                size="large"
-                aria-label="show 17 new notifications"
-                sx={{ backgroundColor: "#F5F5F5" }}
-              >
-                <Badge badgeContent={5} color="error">
-                  <Notifications />
-                </Badge>
-              </IconButton> */}
-              {/* <IconButton size="large" sx={{ backgroundColor: "#F5F5F5" }}>
-                <Settings />
-              </IconButton> */}
               {parseInt(userObj.user_type) === 0 && (
                 <Tooltip title="List All Users">
                   <IconButton

@@ -1,23 +1,11 @@
 import React, { useState, useEffect } from "react";
-import {
-  Box,
-  Drawer,
-  IconButton,
-  Divider,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemIcon,
-  Container,
-} from "@mui/material";
-import { Close } from "@mui/icons-material";
+import { useNavigate } from "react-router";
 
 import { getUsersConnected } from "../../services/UserService";
 import ProfileBanner from "../commons/ProfileBanner";
-import ChatView from "../chat/ChatView";
+import { ghPageName } from "../../index";
 
 import "./chatSidebar.css";
-import { useNavigate } from "react-router";
 
 export default function ChatSideBar({ user }) {
   const [connectedUsers, setConnectedUsers] = useState({});
@@ -39,7 +27,7 @@ export default function ChatSideBar({ user }) {
 
   function openChatModal(userId) {
     console.log("Chat is open");
-    return navigate(`/chat/${userId}`);
+    return navigate(`${ghPageName}/chat/${userId}`);
 
     //TODO: Modal ekle chatView koy icine
     //! diger islemleri etkilemeden modal acik kalabilir mi ona bak

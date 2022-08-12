@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
+import { ghPageName } from "../../index";
 
 import { Colors } from "../../Colors";
 
@@ -9,7 +10,7 @@ import "./ErrorPage.css";
 export default function ErrorPage() {
   let navigate = useNavigate();
   const handleRouteChange = () => {
-    let path = `/`;
+    let path = `${ghPageName}/`;
     navigate(path);
   };
 

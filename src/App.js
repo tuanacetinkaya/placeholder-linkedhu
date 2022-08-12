@@ -3,7 +3,7 @@ import axios from "axios";
 
 import WelcomeScreen from "./pages/WelcomeScreen";
 import HomePageScreen from "./pages/HomePageScreen";
-
+import { ghPageName } from "./index";
 import "./App.css";
 
 const client = axios.create({
@@ -47,7 +47,7 @@ function App() {
       {!user ? (
         <WelcomeScreen setUser={setUser} />
       ) : (
-        <HomePageScreen user={user} setUser={setUser} />
+        <HomePageScreen ghPageName={ghPageName} user={user} setUser={setUser} />
       )}
     </div>
   );

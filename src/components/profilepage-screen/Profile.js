@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import { getProfileData, getUser } from "../../services/UserService";
+import { getProfileData } from "../../services/UserService";
 import LinearIndeterminate from "../commons/LinearIndeterminateLoading";
 import ProfileHeader from "./ProfileHeader";
 import ProfileInfoBar from "./ProfileInfoBar";
@@ -16,9 +16,7 @@ export default function Profile({ sessionUser, setSessionUser }) {
   const [userPosts, setUserPosts] = useState([]);
 
   const [user, setUser] = useState(null);
-  // const [sessionUser, setSessionUser] = useState(null);
   const [isOwnedProfile, setOwnedProfile] = useState(false);
-  const [error, setError] = useState("");
   const [isEdited, setEdited] = useState(false);
 
   useEffect(() => {
@@ -88,37 +86,3 @@ export default function Profile({ sessionUser, setSessionUser }) {
     </div>
   );
 }
-
-// <IconButton
-//   className="moreButton"
-//   color="primary"
-//   aria-label="upload picture"
-//   component="span"
-//   onClick={handleClick}
-// >
-//   <MoreHoriz style={{ color: "#F5F5F5" }} fontSize="large" />
-// </IconButton>;
-
-// var modal = document.getElementById("simpleModal");
-// var modalBtn = document.getElementById("modalBtn");
-// var closeBtn = document.getElementsByClassName("closeBtn")[0];
-
-// modalBtn.addEventListener("click",openModal)
-
-// closeBtn.addEventListener("click",closeModal)
-
-// window.addEventListener("click",clickOutside)
-
-// function openModal(){
-//     modal.style.display = "flex";
-// }
-
-// function closeModal(){
-//     modal.style.display = "none";
-// }
-
-// function clickOutside(e){
-//     if(e.target === modal){
-//         modal.style.display = "none";
-//     }
-// }

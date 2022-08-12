@@ -9,6 +9,7 @@ import HomePageScreen from "./pages/HomePageScreen";
 
 import "./index.css";
 
+export const ghPageName = '/placeholder-linkedhu';
 const container = document.getElementById("root");
 const root = createRoot(container);
 
@@ -16,7 +17,7 @@ root.render(
   <>
     <BrowserRouter forceRefresh={true}>
       <Routes>
-        <Route path="*" element={<App />}></Route>
+        <Route path={`${ghPageName}/*`} element={<App />}></Route>
       </Routes>
     </BrowserRouter>
   </>

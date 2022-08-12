@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import { Box } from "@mui/material";
 import profilePic from "../profilepage-screen/assets/1post.png";
 import calenderPic from "../../img/calendar.png";
-import { Colors } from "../../Colors";
+import { ghPageName } from "../../index";
 import "./ProfileBanner.css";
 
 export default function ProfileBanner({
@@ -50,7 +50,7 @@ export default function ProfileBanner({
       return handleChatOpen(user.id);
     }
     console.log("Navigation");
-    return navigate(`/in/${user.id}`);
+    return navigate(`${ghPageName}/in/${user.id}`);
   }
 
   return (
