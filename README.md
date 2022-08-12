@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Placeholder Team <bbm384-2022>
+# LinkedHU_CENG Web Application 
+This project develops a web application for Hacettepe University Computer Engineering Department students, graduates, and academicians to connect with each other. 
+This platform will provide an efficient and reliable way to connect, share, and socialize to its users.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies
+### 1. Back-End
+- Java: Spring
+- MySQL
 
-## Available Scripts
+### 2. Front-End
+- ReactJS
+- Material UI
 
-In the project directory, you can run:
+## Notes about the Repo
+> Both front-end and back-end exists within this repo. 
 
-### `npm start`
+   In order to test front-end in your local, you need to
+  1. Clone the project in your working environment
+  2. Navigate inside the `placeholder-frontend` folder
+  3. call `npm install` in your terminal: This will download the necessary `node-modules` in your folder
+  4. Then you can safely run `npm start` to open the front-end in `localhost:XXXX` depending on your ports.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Authors
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| <center> <img src="https://github.com/tuanacetinkaya.png?size=400" width="100"/></center> | <img src="https://github.com/kaantuncer.png?size=400" width="100"/> | <img src="https://github.com/mavibirdesmi.png?size=400" width="100"/> | <img src="https://github.com/sanshigo345.png?size=400" width="100"/> | <img src="https://github.com/b21990303.png?size=400" width="100"/> |
+| --- | --- | --- | -- | -- |
+| <center>[Tuana Cetinkaya](https://github.com/tuanacetinkaya) </center> | <center>[Kaan Tuncer](https://github.com/kaantuncer)</center> | <center>[Desmin Alpaslan](https://github.com/mavibirdesmi) </center> | <center>[Buğra Ercan](https://github.com/sanshigo345) </center> | <center>[Hüseyin Mirza Dal](https://github.com/b21990303) </center> |
+| <center>**SWE & Project Manager** </center> | <center>**SWE & Software Architect** </center> | <center>**SWE & Software Analyst** </center> | <center>**SWE & Software Configuration Manager** </center> | <center>**SWE & Software Tester** </center>  |
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
