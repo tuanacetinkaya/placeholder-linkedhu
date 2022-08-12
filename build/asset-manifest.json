@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/placeholder-linkedhu/static/css/main.7ccaf275.css",
+    "main.js": "/placeholder-linkedhu/static/js/main.027068a1.js",
+    "static/js/787.c7c07907.chunk.js": "/placeholder-linkedhu/static/js/787.c7c07907.chunk.js",
+    "static/media/linhu_logo.svg": "/placeholder-linkedhu/static/media/linhu_logo.0dae349d67e3a67983bdcaae7fd840d2.svg",
+    "static/media/welcome-bg.png": "/placeholder-linkedhu/static/media/welcome-bg.dec7568bcfccb2915ac1.png",
+    "static/media/1post.png": "/placeholder-linkedhu/static/media/1post.468c8f7005c009456b60.png",
+    "static/media/defaultProfileCover.png": "/placeholder-linkedhu/static/media/defaultProfileCover.5d61fb219f211050c317.png",
+    "static/media/defaultProfilePic.png": "/placeholder-linkedhu/static/media/defaultProfilePic.01e79083431a89cdb7e0.png",
+    "static/media/paper-plane.png": "/placeholder-linkedhu/static/media/paper-plane.8a3f5463fbbf63eecf1b.png",
+    "static/media/calendar.png": "/placeholder-linkedhu/static/media/calendar.bbcdc668bb94ca39eb15.png",
+    "index.html": "/placeholder-linkedhu/index.html",
+    "main.7ccaf275.css.map": "/placeholder-linkedhu/static/css/main.7ccaf275.css.map",
+    "main.027068a1.js.map": "/placeholder-linkedhu/static/js/main.027068a1.js.map",
+    "787.c7c07907.chunk.js.map": "/placeholder-linkedhu/static/js/787.c7c07907.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ccaf275.css",
+    "static/js/main.027068a1.js"
+  ]
+}
