@@ -47,7 +47,7 @@ function App() {
       {!user ? (
         <WelcomeScreen setUser={setUser} />
       ) : (
-        <HomePageScreen ghPageName={ghPageName} user={user} setUser={setUser} />
+        <HomePageScreen user={user} setUser={setUser} />
       )}
     </div>
   );

@@ -67,7 +67,7 @@ export default function TopBar({ userObj, setUser }) {
           elevation={0}
         >
           <Toolbar sx={{ height: "90px" }}>
-            <a href="/">
+            <a href={`${ghPageName}/`}>
               <SvgIcon
                 component={LinkedHuIcon}
                 inheritViewBox

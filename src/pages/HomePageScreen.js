@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import { Routes, Route } from "react-router-dom";
-import {ghPageName} from "../index"
+import { ghPageName } from "../index";
 
 import TopBar from "../components/topbar/Topbar";
 import EventSideBar from "../components/homepage-screen/EventSideBar";
@@ -35,7 +35,7 @@ export default function HomePageScreen({ user, setUser }) {
 
             <Routes>
               <Route
-                path={`${ghPageName}/`}
+                path={`/`}
                 element={
                   <MainFeed
                     user={user}
@@ -45,19 +45,19 @@ export default function HomePageScreen({ user, setUser }) {
                 }
               />
               <Route
-                path={`${ghPageName}/in/:user_id`}
+                path={`/in/:user_id`}
                 element={
                   <Profile sessionUser={user} setSessionUser={setUser} />
                 }
               />
               <Route
-                path={`${ghPageName}/chat/:user_id`}
+                path={`/chat/:user_id`}
                 element={
                   <ChatView sessionUser={user} setSessionUser={setUser} />
                 }
               />
               <Route
-                path={`${ghPageName}*`}
+                path={`*`}
                 element={
                   <div className="errorMiddle">
                     <ErrorPage />

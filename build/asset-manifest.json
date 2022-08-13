@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/placeholder-linkedhu/static/css/main.ca6b9d11.css",
-    "main.js": "/placeholder-linkedhu/static/js/main.2c4c16e1.js",
+    "main.js": "/placeholder-linkedhu/static/js/main.184e2104.js",
     "static/js/787.c7c07907.chunk.js": "/placeholder-linkedhu/static/js/787.c7c07907.chunk.js",
     "static/media/linhu_logo.svg": "/placeholder-linkedhu/static/media/linhu_logo.0dae349d67e3a67983bdcaae7fd840d2.svg",
     "static/media/welcome-bg.png": "/placeholder-linkedhu/static/media/welcome-bg.dec7568bcfccb2915ac1.png",
@@ -12,11 +12,11 @@
     "static/media/calendar.png": "/placeholder-linkedhu/static/media/calendar.bbcdc668bb94ca39eb15.png",
     "index.html": "/placeholder-linkedhu/index.html",
     "main.ca6b9d11.css.map": "/placeholder-linkedhu/static/css/main.ca6b9d11.css.map",
-    "main.2c4c16e1.js.map": "/placeholder-linkedhu/static/js/main.2c4c16e1.js.map",
+    "main.184e2104.js.map": "/placeholder-linkedhu/static/js/main.184e2104.js.map",
     "787.c7c07907.chunk.js.map": "/placeholder-linkedhu/static/js/787.c7c07907.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca6b9d11.css",
-    "static/js/main.2c4c16e1.js"
+    "static/js/main.184e2104.js"
   ]
 }
