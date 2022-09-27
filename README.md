@@ -29,4 +29,7 @@ It's a platform to see your friend's posts, connect, chat, see job applications 
 -- Share your social links for people to access them directly from your profile
 -- Delete your profile to vanish from the whole platform and leave others wondering if you're a magician
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/47085047/192489072-a4a81302-22ea-42fa-82eb-cfb424a8e207.png">
+
 ![share-social-links](https://user-images.githubusercontent.com/47085047/192489448-90e8f75d-0331-4aae-b68c-ce6fe035dbbd.gif)
+
+- And as always, ENJOY!
